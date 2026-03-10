@@ -4,43 +4,96 @@
 <title>Car Bharosa</title>
 
 <style>
+
 body{
 font-family:Arial;
 margin:0;
-background:#111;
+background:#0f172a;
 color:white;
-text-align:center;
 }
 
 header{
 background:black;
 padding:20px;
+text-align:center;
 }
 
-h1{
-color:#00c3ff;
+header h1{
+color:#38bdf8;
 }
 
-.car{
-background:#222;
-margin:20px;
+nav{
+text-align:center;
+padding:10px;
+background:#111;
+}
+
+nav a{
+margin:15px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+text-align:center;
+padding:60px;
+background:#020617;
+}
+
+.hero h2{
+font-size:40px;
+}
+
+.btn{
+background:#38bdf8;
+padding:12px 20px;
+border-radius:6px;
+color:black;
+text-decoration:none;
+font-weight:bold;
+}
+
+.section{
+padding:40px;
+text-align:center;
+}
+
+.cars{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e293b;
 padding:20px;
 border-radius:10px;
 }
 
-button{
-padding:10px 20px;
-background:#00c3ff;
-border:none;
-color:black;
-font-weight:bold;
-border-radius:5px;
+.card img{
+width:100%;
+border-radius:8px;
 }
 
-a{
+.card h3{
+margin-top:10px;
+}
+
+.whatsapp{
+background:#22c55e;
+padding:10px 15px;
+border-radius:6px;
 color:white;
 text-decoration:none;
 }
+
+footer{
+text-align:center;
+padding:20px;
+background:black;
+}
+
 </style>
 
 </head>
@@ -52,83 +105,115 @@ text-decoration:none;
 <p>Trusted Maruti Car Marketplace in Agartala</p>
 </header>
 
+<nav>
+<a href="#">Home</a>
+<a href="#arena">Arena Cars</a>
+<a href="#nexa">Nexa Cars</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+<h2>Find Your Perfect Maruti Car</h2>
+<p>Best Deals • Easy EMI • Fast Delivery</p>
+
+<a class="btn" href="https://wa.me/917005674282">
+Chat on WhatsApp
+</a>
+</div>
+
+<div class="section" id="arena">
+
 <h2>Maruti Arena Cars</h2>
 
-<div class="car">
+<div class="cars">
+
+<div class="card">
+<img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/54399/swift-exterior-right-front-three-quarter.jpeg">
 <h3>Swift</h3>
 <p>Price ₹6L – ₹9L</p>
-<button>
-<a href="https://wa.me/917005674282">Get Offer</a>
-</button>
+<a class="whatsapp" href="https://wa.me/917005674282">Get Offer</a>
 </div>
 
-<div class="car">
+<div class="card">
+<img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/45691/dzire-exterior-right-front-three-quarter.jpeg">
 <h3>Dzire</h3>
 <p>Price ₹7L – ₹10L</p>
-<button>
-<a href="https://wa.me/917005674282">Get Offer</a>
-</button>
+<a class="whatsapp" href="https://wa.me/917005674282">Get Offer</a>
 </div>
 
-<div class="car">
+<div class="card">
+<img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/27074/wagon-r-exterior-right-front-three-quarter.jpeg">
 <h3>Wagon R</h3>
 <p>Price ₹5.5L – ₹7L</p>
-<button>
-<a href="https://wa.me/917005674282">Get Offer</a>
-</button>
+<a class="whatsapp" href="https://wa.me/917005674282">Get Offer</a>
 </div>
 
-<div class="car">
+<div class="card">
+<img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/139139/brezza-exterior-right-front-three-quarter.jpeg">
 <h3>Brezza</h3>
 <p>Price ₹8.5L – ₹14L</p>
-<button>
-<a href="https://wa.me/917005674282">Get Offer</a>
-</button>
+<a class="whatsapp" href="https://wa.me/917005674282">Get Offer</a>
 </div>
+
+</div>
+
+</div>
+
+<div class="section" id="nexa">
 
 <h2>Maruti Nexa Cars</h2>
 
-<div class="car">
+<div class="cars">
+
+<div class="card">
+<img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/106815/baleno-exterior-right-front-three-quarter.jpeg">
 <h3>Baleno</h3>
 <p>Price ₹7L – ₹11L</p>
-<button>
-<a href="https://wa.me/917005674282">Get Offer</a>
-</button>
+<a class="whatsapp" href="https://wa.me/917005674282">Get Offer</a>
 </div>
 
-<div class="car">
+<div class="card">
+<img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/131825/fronx-exterior-right-front-three-quarter.jpeg">
 <h3>Fronx</h3>
 <p>Price ₹8L – ₹13L</p>
-<button>
-<a href="https://wa.me/917005674282">Get Offer</a>
-</button>
+<a class="whatsapp" href="https://wa.me/917005674282">Get Offer</a>
 </div>
 
-<div class="car">
+<div class="card">
+<img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/139133/grand-vitara-exterior-right-front-three-quarter.jpeg">
 <h3>Grand Vitara</h3>
 <p>Price ₹11L – ₹20L</p>
-<button>
-<a href="https://wa.me/917005674282">Get Offer</a>
-</button>
+<a class="whatsapp" href="https://wa.me/917005674282">Get Offer</a>
 </div>
 
-<div class="car">
+<div class="card">
+<img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/148921/invicto-exterior-right-front-three-quarter.jpeg">
 <h3>Invicto</h3>
 <p>Price ₹25L – ₹29L</p>
-<button>
-<a href="https://wa.me/917005674282">Get Offer</a>
-</button>
+<a class="whatsapp" href="https://wa.me/917005674282">Get Offer</a>
 </div>
+
+</div>
+
+</div>
+
+<div class="section" id="contact">
 
 <h2>Contact Car Bharosa</h2>
 
 <p>Agartala, Tripura</p>
 
-<button>
-<a href="https://wa.me/917005674282">
+<a class="btn" href="https://wa.me/917005674282">
 Chat on WhatsApp
 </a>
-</button>
+
+</div>
+
+<footer>
+
+<p>© 2026 Car Bharosa</p>
+
+</footer>
 
 </body>
 </html>
